@@ -1,0 +1,5 @@
+salario_mes=float(input("Quanto você ganha por mês?"))
+horas_semana=float(input("Quantas horas você trabalho por semana?"))
+horas_mes= (horas_semana*4)
+salario_hora= (salario_mes/horas_mes)
+print(f"Seu salário por hora no mês é de: R$ {salario_hora}")
